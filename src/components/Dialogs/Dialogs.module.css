@@ -1,0 +1,42 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItems {
+    padding: 10px;
+}
+.dialogAvatar img {
+    width: 20px;
+    padding-right: 5px;
+}
+.dialogLeftSide {
+    display: flex;
+}
+.dialog a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.dialog a.activeLink {
+    color: gold;
+}
+
+.dialog a:hover {
+    color: violet;
+}
+
+.messages {
+    padding: 10px;
+}
+
+.message {
+    /* убрать при нужді */
+    width: 200px;
+    
+    margin-bottom: 5px;
+    padding-left: 10px;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 4px;
+}
